@@ -30,4 +30,9 @@ Trovate il live coding qui.
 Buon lavoro a tutti! (modificato) 
 -----------------------
 ESECUZIONE:
-
+milestone 0:
+vado a definire le classi Prodotto,Cibo e Cuccia.
+L'idea alla base è di avere Prodotto come classe generica.
+Le classi Cibo e Cuccia "sono" un Prodotto,quindi avranno extends quando vengono dichiarate.
+La classe Categoria verrà messa all'interno della classe Prodotto, quindi la classe Prodotto "ha" la Categoria nelle sue variabili.
+Dopo aver dichiarato le classi Prodotto, Categoria, Cuccia e Cibo vado a definire delle variabili nello store recuperando le classi con l'include.
