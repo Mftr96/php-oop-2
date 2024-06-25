@@ -16,7 +16,7 @@ include_once __DIR__ . '/store.php';
 </head>
 
 <body>
-    <li> <?php var_dump($crocchette) ?></li>
+    <pre> <?php var_dump($crocchette) ?></pre>
 
 </body>
 
