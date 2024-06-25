@@ -30,11 +30,4 @@ Trovate il live coding qui.
 Buon lavoro a tutti! (modificato) 
 -----------------------
 ESECUZIONE:
-milestone 0:creazione classi 
-andare a creare delle classi necessarie alla creazione del sito.
-La Prima classe da creare sarà la classe Prodotto, dalla quale verranno ricavate le istanze cuccia,giocattolo, cibo 
-verrà creata poi la classe Cani e Gatti sul modello has-a
-verranno poi dichirati i prodotti nello store.php importando le classi.
 
-Creo quindi il file Prodotto.php nella cartella models
-e definisco la classe Prodotto 

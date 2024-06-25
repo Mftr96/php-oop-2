@@ -1,9 +1,10 @@
 <?php
 //definisco la classe prodotto
-class Product{
+class Prodotto{
     public $prezzo;
     public $immagine;
     public $sconto;
+    //prodotto "ha una"Categoria 
     public $categoria;
 
     public function __construct($prezzo,$immagine,$sconto, Categoria $categoria)
