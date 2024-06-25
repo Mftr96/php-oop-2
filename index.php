@@ -17,6 +17,12 @@ include_once __DIR__ . '/store.php';
 
 <body>
     <pre> <?php var_dump($crocchette) ?></pre>
+    <ul>
+        <!-- creazione ciclo su lista_film -->
+        <?php foreach ($prodotti as $acquisti) { ?>
+            <li><?= "$acquisti->nome $acquisti->prezzo " ?></li>
+        <?php } ?>
+    </ul>
 
 </body>
 

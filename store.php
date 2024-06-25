@@ -15,4 +15,8 @@ $categoria_gatti= new Categoria("per gatti");
 //dichiaro le variabili presenti nello store(ipotetici articoli di negozio e-commerce)
 $crocchette= new Cibo("1kg","cibo secco","carne","crocchette","20€","-20%",$categoria_cani );
 $lettino= new Cuccia("20*20cm","piumino","lettino","10€",null,$categoria_gatti);
+
+//dichiaro le variabili in un array
+//forse sono da mettere in due array separati i prodotti Cibo e Prodotti Cuccia per eventuali cicli
+$prodotti=[$crocchette,$lettino];
 ?>
